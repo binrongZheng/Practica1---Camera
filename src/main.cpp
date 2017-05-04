@@ -16,7 +16,6 @@
 using namespace glm;
 using namespace std;
 const GLint WIDTH = 800, HEIGHT = 800;
-bool WIREFRAME = false;
 
 void key_callback(GLFWwindow* window, int key, int scancode, int action, int mode);
 
@@ -292,8 +291,6 @@ int main() {
 void key_callback(GLFWwindow* window, int key, int scancode, int action, int mode) {
 	if (key == GLFW_KEY_ESCAPE && action == GLFW_PRESS)
 		glfwSetWindowShouldClose(window, GL_TRUE);
-	if (key == GLFW_KEY_W && action == GLFW_PRESS)
-		WIREFRAME = !WIREFRAME;
 	if (key == GLFW_KEY_1 && mixValor + 0.02 <= 1)
 		mixValor += 0.02;
 	if (key == GLFW_KEY_2 && mixValor - 0.02 >= 0)
