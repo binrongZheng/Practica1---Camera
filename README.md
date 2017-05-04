@@ -7,4 +7,6 @@ Utilitzar el key "1" i "2" per canviar les textures. (GLFW_KEY_1 i GLFW_KEY_2)
 
 Utilitzar "GLFW_KEY_UP", "GLFW_KEY_DOWN", "GLFW_KEY_LEFT" i "GLFW_KEY_RIGHT" per fer la rotació.
 
+Utilitzar el ratolí per rotar la camera.
+
 Utilitzar el key "w", "a", "s" i "d" per moure la camera.
