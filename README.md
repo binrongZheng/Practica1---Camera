@@ -1,12 +1,12 @@
 # Practica1---Camera
-Quan descargar la carpeta d'aquest projecte, pot ser no trobar les libreries, s'ha de cambiar "propierties" -> "Configuration Manager" -> "platform" a (Win32) i "Active solution platform" a (x86), i s'ha de afegir la carpeta lib a la carpeta glew.
+Cuando descargar la carpeta de este proyecto, puede ser no encontrar las librerías, se debe cambiar "propierties" -> "Configuration Manager" -> "platform" en (Win32) y "Active solution platform" en (x86), y se debe añadir la carpeta lib en la carpeta Glew.
 
-Aquest projecte:
+Este proyecto:
 
-Utilitzar el key "1" i "2" per canviar les textures. (GLFW_KEY_1 i GLFW_KEY_2)
+Utilizar el key "1" y "2" para cambiar las texturas. (GLFW_KEY_1 y GLFW_KEY_2)
 
-Utilitzar "GLFW_KEY_UP", "GLFW_KEY_DOWN", "GLFW_KEY_LEFT" i "GLFW_KEY_RIGHT" per fer la rotació.
+Utilizar "GLFW_KEY_UP", "GLFW_KEY_DOWN", "GLFW_KEY_LEFT" y "GLFW_KEY_RIGHT" para hacer la rotación.
 
-Utilitzar el ratolí i scroll per rotar i moure la visió de la camera.
+Utilizar el ratón y scroll para rotar y mover la visión de la cámara.
 
-Utilitzar el key "w", "a", "s" i "d" per moure la camera.
+Utilizar el key "w", "a", "s" y "d" para mover la cámara.
